@@ -1,7 +1,7 @@
 import requests
 import vk_api
 
-from Griz.config import *
+from config import *
 
 
 def write_msg(user_id, text):
@@ -45,3 +45,4 @@ while True:
                       '\n P.S. Строго между нами , разраб туповат для чего то более)))')
     # меняем ts для следующего запроса
     ts = long_poll['ts']
+                                                              # vlog = 'переменная для проверки'
